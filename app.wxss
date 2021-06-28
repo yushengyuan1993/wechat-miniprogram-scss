@@ -1,0 +1,7 @@
+/**app.wxss**/
+view {
+  line-height: 40rpx;
+}
+.container {
+  min-height: 100vh;
+} 

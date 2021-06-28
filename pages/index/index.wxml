@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view calss="list">
+    <view class="item" wx:for="{{ list }}" wx:key="index">
+      <view class="title">{{ item.title }}</view>
+      <view class="desc">{{ item.desc }}</view>
+      <!-- <view>{{ item.title }}</view> -->
+    </view>
+  </view>
+</view>
